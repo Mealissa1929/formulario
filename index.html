@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form action="/submit" method="POST">
+        <h3>Cadastre-se</h3>
+
+        <div class="formgroup">
+            <label placeholder="nome completo…" for="nome"> Nome: </label>
+            <input type="text" id="nome" name="nome">
+        </div>
+
+        <div class="formgroup">
+            <label type="date" for="data_nascimento"> Data de Nascimento: </label>
+            <input id="data_nascimento" name="data_nascimento">
+        </div>
+
+        <div class="formgroup">
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="formgroup">
+            <label for="tel"> Número de tel: </label>
+            <input type="tel" id="tel" name="tel">
+        </div>
+
+
+        <div class="formgroup">
+            <label>Habilidades: </label>
+            <label for="html">
+                <input type="checkbox" id="html" name="habilidades" value="HTML">HTML</label>
+            <label for="css">
+                <input type="checkbox" id="css" name="habilidades" value="CSS">CSS</label>
+            <label for="js">
+                <input type="checkbox" id="js" name="habilidades" value="JS">JavaScript</label>
+        </div>
+
+        <div class="formgroup">
+
+            <label for="cor">Cor favorita</label>
+	        <input type='color' id='cor' name='cor'>
+
+        </div>
+            
+
+        <div class="formgroup">
+            <label for="pais">País: </label>
+            <select id="pais" name="pais">
+            <option value="br">Brasil </option>
+            <option value="an">Angola </option>
+            <option value="ar">Argentina </option>
+            <option value="py">Paraguai </option>
+            <option value="mo">Moçambique</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Sexo: </label>
+            <input type="radio" id="sexo-m" name="sexo" value="Masculino">
+	        <label for="sexo-m">Masculino</label><br>
+	        <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+	        <label for="sexo-f">Feminino</label>
+
+        </div>
+        
+
+        <div class="formgroup">
+            <label for="comentarios">Comentários: </label><br>
+            <textarea id="comentarios" name="comentarios"> </textarea>
+        </div>
+
+        <div class="formgroup">
+            <label for="comentarios">Comentários: </label><br>
+            <textarea id="comentarios" name="comentarios"> </textarea>
+        </div>
+
+
+       
+    </form>
+</body>
+
+</html>
